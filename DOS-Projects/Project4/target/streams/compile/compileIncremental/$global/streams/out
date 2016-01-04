@@ -1,0 +1,480 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 29 sources: invalidated sources (29) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 29 Scala sources to D:\AtUF\DOS\Project4\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.6  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_f20477d0[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_65\lib\resources.jar;C:\Program Files\Java\jre1.8.0_65\lib\rt.jar;C:\Program Files\Java\jre1.8.0_65\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_65\lib\jce.jar;C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_65\classes;C:\Users\hsitas444\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\hsitas444\.sbt\boot\scala-2.10.4\org.scala-sbt\sbt\0.13.8\xsbti\interface-0.13.8.jar;C:\Users\hsitas444\.sbt\boot\scala-2.10.4\org.scala-sbt\sbt\0.13.8\compiler-interface-src\compiler-interface-src-0.13.8.jar;C:\Users\hsitas444\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.11.6.jar;C:\Users\hsitas444\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar;C:\Users\hsitas444\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\hsitas444\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.3.jar;C:\Users\hsitas444\.ivy2\cache\jline\jline\jars\jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\API.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\Command.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\Compat.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\Log.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\Message.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\HSITAS~1\AppData\Local\Temp\sbt_4159aa93\xsbt\ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 11a913c, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	utf8[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_65\lib\resources.jar;C:\Program Files\Java\jre1.8.0_65\lib\rt.jar;C:\Program Files\Java\jre1.8.0_65\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_65\lib\jce.jar;C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_65\classes;C:\Users\hsitas444\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\target\scala-2.11\classes;C:\Users\hsitas444\.ivy2\cache\it.justwrote\scala-faker_2.11\jars\scala-faker_2.11-0.3.jar;C:\Users\hsitas444\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-can_2.11\bundles\spray-can_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-io_2.11\bundles\spray-io_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-util_2.11\bundles\spray-util_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-http_2.11\bundles\spray-http_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\org.parboiled\parboiled-scala_2.11\jars\parboiled-scala_2.11-1.1.7.jar;C:\Users\hsitas444\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.1.7.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-client_2.11\bundles\spray-client_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-httpx_2.11\bundles\spray-httpx_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.3.jar;C:\Users\hsitas444\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.5.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-json_2.11\bundles\spray-json_2.11-1.3.2.jar;C:\Users\hsitas444\.ivy2\cache\io.spray\spray-routing_2.11\bundles\spray-routing_2.11-1.3.3.jar;C:\Users\hsitas444\.ivy2\cache\com.chuusai\shapeless_2.11\jars\shapeless_2.11-1.2.4.jar;C:\Users\hsitas444\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.9.jar;C:\Users\hsitas444\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\hsitas444\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.9.jar;C:\Users\hsitas444\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 25.161868903 s[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	fbException, UnitJsonFormat, photosFormat, albumsFormat, objectTypeFormat, listFormat, vectorFormat, RootJsObjectFormat, postFormat, userFormat, BooleanJsonFormat, setFormat, RootJsArrayFormat, authHeaderFormat, JsValueFormat, LongJsonFormat, tuple1Format, indexedSeqFormat, optionFormat, linearSeqFormat, SymbolJsonFormat, tuple5Format, tuple3Format, immLinearSeqFormat, tuple7Format, successFormat, postsFormat, photoFormat, immSetFormat, eitherFormat, objectIdFormat, CharJsonFormat, BigDecimalJsonFormat, ShortJsonFormat, tuple6Format, StringJsonFormat, arrayFormat, dateFormat, immIterableFormat, ByteJsonFormat, tuple2Format, immIndexedSeqFormat, immSeqFormat, tuple4Format, FloatJsonFormat, edgeFormat, iterableFormat, IntJsonFormat, friendsFormat, DoubleJsonFormat, pageFormat, mapFormat, seqFormat, BigIntJsonFormat, albumFormat.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, website, wait, writtenBy, $asInstanceOf, posts, equals, description, albums, asInstanceOf, synchronized, $isInstanceOf, toApiObject, notifyAll, readResolve, isInstanceOf, Page, <init>, id, apply, ==, clone, copy, members, toString, !=, getClass, title, ne, eq, photos, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, Page, <init>, id, apply, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, Page, <init>, id, apply, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(albums, asInstanceOf, toApiObject, isInstanceOf, Page, <init>, id, apply, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(posts, albums, Page, <init>, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(posts, asInstanceOf, toApiObject, isInstanceOf, Page, <init>, id, apply, ==, toString, ne, eq, photos)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\ApiServiceManager.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	ec, sprayJsonUnmarshallerConverter, sprayJsonUnmarshaller, context, self, sprayJsonMarshallerConverter, sprayJsonMarshaller, timeout.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, Photo, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, height, toApiObject, notifyAll, readResolve, isInstanceOf, <init>, id, apply, ==, clone, link, createdBy, ownerNodeType, toString, !=, owner, getClass, ne, width, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(Photo, asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, createdBy, ownerNodeType, toString, owner, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(Photo, asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, ownerNodeType, toString, owner, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(Photo, <init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(Photo, asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, ownerNodeType, toString, owner, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, EdgeValidationService, $init$, validateEdgeGetPermission, toString, !=, getClass, ne, validateEdgeCreatePermission, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, ==, EdgeValidationService, validateEdgeGetPermission, toString, ne, validateEdgeCreatePermission, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, ==, EdgeValidationService, validateEdgeGetPermission, toString, validateEdgeCreatePermission, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, ==, EdgeValidationService, validateEdgeGetPermission, toString, validateEdgeCreatePermission, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala: Set(asInstanceOf, isInstanceOf, ==, !=, ne)[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, ==, EdgeValidationService, validateEdgeGetPermission, toString, ne, validateEdgeCreatePermission, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala: Set(asInstanceOf, isInstanceOf, ==, !=, ne)[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, ==, EdgeValidationService, validateEdgeGetPermission, toString, validateEdgeCreatePermission, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala: Set(asInstanceOf, isInstanceOf, ==, !=, ne)[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\ActorNames.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	PageApiServiceManager, AlbumApiServiceManagerRef, notify, UserApiService, AuthServiceRef, wait, $asInstanceOf, HttpConnectionManagerRef, FakeUserCoOrdinator, equals, PostApiServiceRef, DataStoreService, AuthApiServiceManagerRef, asInstanceOf, GetOpTickManager, synchronized, PhotoApiServiceRef, $isInstanceOf, PhotoApiServiceManager, PostApiServiceManager, HttpConnectionManager, DataStoreServiceRef, PhotoApiService, FakeUserPrefix, notifyAll, ActorNames, AuthService, isInstanceOf, PostApiServiceManagerRef, FakeUserCoOrdinatorRef, PageApiService, FBSimulatorServiceRef, ==, clone, PostApiService, UserApiServiceRef, CreateOpTickManager, AuthApiServiceManager, PageApiServiceRef, toString, FakeUserPrefixRef, FBSimulatorService, !=, getClass, UserApiServiceManagerRef, UserApiServiceManager, AlbumApiServiceRef, ne, eq, PhotoApiServiceManagerRef, ##, finalize, PageApiServiceManagerRef, hashCode, AlbumApiService, AlbumApiServiceManager.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, ActorNames, isInstanceOf, ==, toString, eq, PhotoApiServiceManagerRef)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala: Set(PageApiServiceManager, UserApiService, PhotoApiServiceManager, PostApiServiceManager, HttpConnectionManager, PhotoApiService, ActorNames, AuthService, PageApiService, PostApiService, AuthApiServiceManager, FBSimulatorService, UserApiServiceManager, AlbumApiService, AlbumApiServiceManager)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala: Set(asInstanceOf, ActorNames, isInstanceOf, ==, toString, eq, PageApiServiceManagerRef)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(AlbumApiServiceManagerRef, asInstanceOf, PhotoApiServiceRef, ActorNames, isInstanceOf, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala: Set(asInstanceOf, ActorNames, isInstanceOf, ==, toString, !=, UserApiServiceManagerRef, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala: Set(AuthServiceRef, PostApiServiceRef, asInstanceOf, PhotoApiServiceRef, ActorNames, isInstanceOf, ==, UserApiServiceRef, PageApiServiceRef, FBSimulatorService, !=, AlbumApiServiceRef, ne)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala: Set(FakeUserCoOrdinator, FakeUserPrefix, ActorNames, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala: Set(asInstanceOf, GetOpTickManager, ActorNames, ==, CreateOpTickManager, FakeUserPrefixRef)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala: Set(asInstanceOf, GetOpTickManager, ActorNames, isInstanceOf, ==, CreateOpTickManager, toString, FakeUserPrefixRef)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala: Set(asInstanceOf, ActorNames, isInstanceOf, FakeUserCoOrdinatorRef, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, PhotoApiServiceRef, ActorNames, isInstanceOf, PostApiServiceManagerRef, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	system.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, description, asInstanceOf, synchronized, $isInstanceOf, toApiObject, notifyAll, readResolve, isInstanceOf, <init>, id, apply, ==, Post, clone, link, createdBy, picture, ownerNodeType, message, toString, !=, owner, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, Post, createdBy, picture, ownerNodeType, toString, owner, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>, Post)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	pimpRouteWithConcatenation, ec, exceptionHandler, segmentStringToPathMatcher, context, string2NR, symbol2NR, self, stringExtractionPair2PathMatcher, valueMap2PathMatcher, stringOptionNameReceptacle2PathMatcher, timeout, regex2PathMatcher.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, isFriendOrSelf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, FriendUtils, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isFriendOrSelf, isInstanceOf, ==, toString, ne, eq, FriendUtils)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala: Set(isFriendOrSelf, ==, !=, FriendUtils)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala: Set(asInstanceOf, isFriendOrSelf, isInstanceOf, ==, toString, !=, ne, eq, FriendUtils)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\FBObject.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, id, ==, clone, FBObject, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, !=, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala: Set(asInstanceOf, isInstanceOf, <init>, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala: Set(asInstanceOf, <init>, id, FBObject)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala: Set(asInstanceOf, <init>, id, FBObject)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala: Set(<init>, id)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala: Set(asInstanceOf, <init>, id)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala: Set(<init>, id)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\ClientSimulator.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, avgFriends, showUsage, wait, $asInstanceOf, ClientSimulator, pageIds, equals, asInstanceOf, executionStart, synchronized, $isInstanceOf, get_ticker_rate_10000, main, notifyAll, serverIp, ClientConfig, isInstanceOf, postOperationRollerLimit, ==, clone, get_ticker_rate, numPages, toString, numUsers, args, !=, getClass, photoOperationRollerLimit, simulationTime, ne, pageOperationsWrtUsers, create_ticker_rate_10000, eq, delayedInit, ##, finalize, create_ticker_rate, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUser.scala: Set(avgFriends, pageIds, asInstanceOf, serverIp, ClientConfig, isInstanceOf, ==, toString, numUsers, pageOperationsWrtUsers, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala: Set(avgFriends, asInstanceOf, ClientConfig, isInstanceOf, ==, numPages, toString, numUsers, simulationTime)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala: Set(asInstanceOf, ClientConfig, postOperationRollerLimit, ==, get_ticker_rate, numUsers, photoOperationRollerLimit, create_ticker_rate)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	ec, system, context, self, timeout.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\HttpConnectionManager.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, posts, equals, DataStore, albums, asInstanceOf, users, synchronized, $isInstanceOf, pages, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, photos, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(DataStore, asInstanceOf, users, pages, isInstanceOf, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala: Set(DataStore, asInstanceOf, users, isInstanceOf, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala: Set(DataStore, pages, ==, !=)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala: Set(DataStore, asInstanceOf, pages, isInstanceOf, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(DataStore, albums, asInstanceOf, users, pages, isInstanceOf, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala: Set(DataStore, asInstanceOf, users, isInstanceOf, ==, toString, !=, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala: Set(DataStore, asInstanceOf, users, isInstanceOf, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(posts, DataStore, asInstanceOf, users, pages, isInstanceOf, ==, toString, ne, eq, photos)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Profile.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, posts, equals, albums, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, Profile, <init>, id, ==, clone, toString, !=, getClass, ne, eq, photos, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala: Set(Profile, <init>, id)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(albums, asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Page.scala: Set(asInstanceOf, Profile, <init>, id)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(posts, asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(albums, asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(posts, albums, <init>, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(posts, asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(albums, asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(posts, albums, <init>, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, toString, !=, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala: Set(asInstanceOf, isInstanceOf, <init>, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(posts, asInstanceOf, isInstanceOf, <init>, id, ==, toString, ne, eq, photos)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	ec, canBuildFrom, context, self, ordering, mkOrderingOps, timeout.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\TickManager.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\client\FakeUserCoordinator.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, id, ==, clone, createdBy, ownerNodeType, toString, !=, owner, getClass, Edge, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala: Set(<init>, id, createdBy, ownerNodeType, owner, Edge)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, createdBy, ownerNodeType, owner, Edge)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, createdBy, ownerNodeType, owner, Edge)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, ownerNodeType, toString, owner, Edge, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, createdBy, ownerNodeType, toString, owner, Edge, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, createdBy, ownerNodeType, toString, owner, Edge, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, ownerNodeType, toString, owner, Edge, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, isInstanceOf, <init>, id, ==, ownerNodeType, toString, owner, Edge, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, toApiObject, notifyAll, readResolve, isInstanceOf, Album, <init>, id, apply, ==, clone, createdBy, ownerNodeType, coverPhoto, toString, !=, owner, getClass, ne, eq, photos, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(Album, <init>, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, Album, <init>, id, apply, ==, ownerNodeType, coverPhoto, toString, owner, eq, photos)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\User.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	birthday, notify, wait, $asInstanceOf, posts, email, equals, pubKey2, albums, asInstanceOf, synchronized, $isInstanceOf, toApiObject, notifyAll, readResolve, prvKey2, isInstanceOf, lastName, firstName, <init>, pendingRequests, id, apply, friends, ==, clone, User, copy, toString, !=, getClass, ne, pubKey1, eq, photos, ##, finalize, hashCode, gender.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, User, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala: Set(albums, asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, User, toString, eq, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\DataStore.scala: Set(posts, albums, <init>, User, photos)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala: Set(asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, friends, ==, User, copy, toString, !=, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FriendUtils.scala: Set(asInstanceOf, isInstanceOf, <init>, friends, ==)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala: Set(posts, asInstanceOf, toApiObject, isInstanceOf, <init>, id, apply, ==, User, toString, ne, eq, photos)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mIncluding D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala by D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala, D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\BaseApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PageApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\UserApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	ordering, canBuildFrom, mkOrderingOps.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\common\NodeType.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\api\ApiObjects.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Album.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Edge.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Photo.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\model\Post.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\FBSimulatorService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AlbumApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\EdgeService.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PhotoApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\PostApiServiceActor.scala[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, ec, timeout, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following member ref dependencies of D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\service\AuthServiceActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m	D:\AtUF\DOS\Project4\src\main\scala-2.11\dos\project4\server\ServerBoot.scala[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
